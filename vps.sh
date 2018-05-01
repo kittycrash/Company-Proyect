@@ -1,5 +1,3 @@
-{
-	
 	apt-get update
 	apt-get install -y squid curl nano sysv-rc-conf ulatency ulatencyd
 	
@@ -57,12 +55,7 @@
 	echo "Port SSH: 420"
 
 
-}
 
-
-
-{
-	
 	apt-get update
 	apt-get install -y squid3 curl nano sysv-rc-conf ulatency ulatencyd
 	
@@ -122,15 +115,7 @@
 	echo "$ip"
 	echo "Porta: 664, 4200, 6400 y 3128"
 	echo "Porta SSH: 420"
-}
 
-	if cat /etc/issue | grep "Debian" 1>/dev/null 2>/dev/null; then  
-	
-	debian
-	
-	elif cat /etc/issue | grep "Ubuntu 16" 1>/dev/null 2>/dev/null; then  
-	
-	ubuntu16
 	
 	elif cat /etc/issue | grep "Ubuntu" 1>/dev/null 2>/dev/null; then  
 	
