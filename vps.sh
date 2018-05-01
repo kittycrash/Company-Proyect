@@ -1,10 +1,10 @@
-	apt-get update
-	apt-get install -y squid curl nano sysv-rc-conf ulatency ulatencyd
+	#apt-get update
+	#apt-get install -y squid curl nano sysv-rc-conf ulatency ulatencyd
 	
-	cd /etc/ssh/
+	#cd /etc/ssh/
 
-	echo "$(sed 's/420/664/g' sshd_config)" > sshd_config
-	echo "" >> sshd_config	
+	#echo "$(sed 's/420/664/g' sshd_config)" > sshd_config
+	#echo "" >> sshd_config	
 	echo "Port 420" >> sshd_config	
 	
 	ip=$(wget -qO - icanhazip.com)
